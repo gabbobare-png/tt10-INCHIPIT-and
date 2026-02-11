@@ -1,7 +1,7 @@
-//  Module: or_module
+//  Module: and_module
 //
 
-module or_module
+module and_module
     (
         input logic a,
         input logic b,
@@ -9,4 +9,4 @@ module or_module
     );
 
     assign y = a | b;
-endmodule: or_module
+endmodule: and_module
